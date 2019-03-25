@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopify Custom Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link"  href="./buy-button.html">Buy Button</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <h1 class="col-12 col-sm-6">Welcome to Cozy Furniture</h1>
+      <p class="col-12 col-sm-6">On this page we will pull the products from Shopify Store using <a href="https://shopify.github.io/js-buy-sdk/index.html" target="_blank">Shopify JavaScript Buy SDK</a>.</p>
+      <div class="col-sm-8"><div id="products" class="row">
+      </div></div>
+      <div class="col-sm-4 border">
+        <div id="cart">Your cart is empty</div>
+        <div id="total" class="border-top border-bottom"></div>
+        <div id="checkout"><a href="#" id="checkoutBtn" class="btn btn-success mt-2 mb-2">Checkout</a></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>
